@@ -27,11 +27,19 @@
 
       <div class="form-wrap">
         <form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="81b82047-b35e-4e56-ad92-2b94fcfa6e4f">
-  <input type="text" name="name" required>
-  <input type="email" name="email" required>
+  <label for="name">Name <span class="req">*</span></label>
+   <input type="text" name="name" required>
+
+  <label for="email">Email Address <span class="req">*</span></label>
+ <input type="email" name="email" required>
+
+  <label for="message">Message <span class="req">*</span></label>
   <textarea name="message" required></textarea>
-  <button type="submit">Submit Form</button>
+
+  <input type="hidden" name="access_key" value="81b82047-b35e-4e56-ad92-2b94fcfa6e4f" />
+
+  <button class="btn" type="submit">Submit</button>
+   <button type="submit">Submit</button>
 </form>
       </div>
     </div>
