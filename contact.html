@@ -27,18 +27,11 @@
 
       <div class="form-wrap">
         <form action="https://api.web3forms.com/submit" method="POST">
-  <label for="name">Name <span class="req">*</span></label>
-  <input id="name" name="name" type="text" placeholder="Your Name..." required />
-
-  <label for="email">Email Address <span class="req">*</span></label>
-  <input id="email" type="email" name="email" placeholder="Your Email Address..." required />
-
-  <label for="message">Message <span class="req">*</span></label>
-  <textarea id="message" name="message" placeholder="Your Message..." required></textarea>
-
-  <input type="hidden" name="_subject" value="New message from portfolio site" />
-
-  <button class="btn" type="submit">Submit</button>
+  <input type="hidden" name="access_key" value="81b82047-b35e-4e56-ad92-2b94fcfa6e4f">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit Form</button>
 </form>
       </div>
     </div>
